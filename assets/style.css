@@ -1,0 +1,155 @@
+*{
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url('fonts/roboto-bold-webfont.woff2') format('woff2'),
+       url('fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Bold Italic';
+  src: url('fonts/roboto-bolditalic-webfont.woff2') format('woff2'),
+       url('fonts/roboto-bolditalic-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto Italic';
+  src: url('fonts/roboto-italic-webfont.woff2') format('woff2'),
+       url('fonts/roboto-italic-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
+       url('fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Courier Prime Bold';
+  src: url('fonts/courier_prime_bold_italic-webfont.woff2') format('woff2'),
+       url('fonts/courier_prime_bold_italic-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Roboto Regural',sans-serif;
+  
+  background-color: #d1e4ff;
+}
+
+.container{
+  width: 980px;
+  margin: 0 auto;
+  padding: 30px 50px;
+  background-color: #fff;
+}
+
+p{
+  font-size: 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto Bold', sans-serif;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 36px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+h4{
+  font-size: 26px;
+}
+
+h5{
+  font-size: 20px;
+}
+
+h6{
+  font-size: 16px;
+}
+
+.headline{
+  margin-bottom: 70px;
+}
+
+code{
+  font-family: 'Courier Prime Bold', serif;
+  background-color: #f0e6d6;
+  font-size: 19px;
+}
+
+.kbd{
+ background-color: #eadcea;
+}
+
+.samp{
+  background-color: #eadcdc;
+}
+
+blockquote{
+  background-color: #eadcea;
+}
+
+.blockquote{
+  background-color: #eadcea;
+}
+
+.pre{
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+  background-color: #f0e6d6;
+}
+
+ul, ol{
+  padding-top: 10px;
+}
+
+li{
+  padding: 3px;
+}
+
+dt, dd{
+  padding: 5px;
+}
+
+dt{
+  font-style: italic;
+  font-weight: 700;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td{
+  padding: 5px 10px;
+  border: 2px solid #000; 
+}
+
+tr:first-child{
+  background-color: #eadcea;
+  text-align: center;
+}
